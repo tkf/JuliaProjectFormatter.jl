@@ -1,0 +1,11 @@
+name = "JuliaProjectFormatterTests"
+uuid = "46fc3162-3df7-478a-8758-796bb2c7b1b4"
+authors = ["Takafumi Arakaki <aka.tkf@gmail.com> and contributors"]
+version = "0.1.0-DEV"
+
+[deps]
+JuliaProjectFormatter = "139e0cf6-64b2-48ae-acd2-4285c0bb47c3"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.6"
