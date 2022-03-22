@@ -27,7 +27,7 @@ function discover_project_toml!(projects, path)
         if isdir(subpath)
             discover_project_toml!(projects, subpath)
         elseif name in ("Project.toml", "JuliaProject.toml")
-            push!(projects, subpath)
+        push!(projects, subpath)
         end
     end
     return projects
