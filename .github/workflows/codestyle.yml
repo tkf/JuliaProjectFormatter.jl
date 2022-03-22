@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: |
           using Pkg
-          Pkg.add(".")
+          Pkg.add(path = ".")
         shell: julia --color=yes {0}
       - name: Format Julia files
         run: |
