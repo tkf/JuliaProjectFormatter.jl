@@ -10,7 +10,7 @@ using ..JuliaProjectFormatter: JuliaProjectFormatter
 
 using TOML
 
-const _project_key_order = ["name", "uuid", "keywords", "license", "desc", "deps", "compat"]
+const _project_key_order = ["name", "uuid", "keywords", "license", "desc", "deps", "compat", "weakdeps", "extensions"]
 project_key_order(key::String) =
     something(findfirst(x -> x == key, _project_key_order), length(_project_key_order) + 1)
 
